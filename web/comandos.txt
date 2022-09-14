@@ -1,3 +1,11 @@
 npm create vite@latest = criar o projeto react
 
 npm install = baixar ar dependencias do projeto
+
+npm run dev = rodar o projeto
+
+npm install -D tailwindcss postcss autoprefixer = instalação do tailwindcss
+
+npx tailwindcss init -p = instalação das dependencias
+
+npm install phosphor-react = biblioteca de ícones
