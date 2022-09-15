@@ -1,3 +1,11 @@
 expo initi (nome do projeto)
 
 expo start = rodar o projeto
+
+com a extensão R components (rnso = cria estrutura básica do styles.ts)  (rnbc = cria estrutura básica do index.tsx)
+
+expo install expo-font @expo-google-fonts/inter = instalar as fonts
+
+expo install react-native-safe-area-context = fazer os recordes na tela de forma autómatica
+
+expo install expo-linear-gradient = trabalhar com linear gradient
