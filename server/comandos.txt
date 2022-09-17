@@ -1,0 +1,24 @@
+npm init -y = criar o projeto
+
+npm install express = instalação do express
+
+npm i typescript -D = instalação do typescript
+
+npx tsc --init = cria arquivo de configuração do tsconfig
+
+npm rum build = transforma o arquivo ts em js
+
+npm install @types/express -D = denpendencia do express para rodar typescript
+
+npm install ts-node-dev -D
+  criar no package.json em script( "dev": "tsnd src/server.ts(nome da pasta ts)" )
+
+npm i prisma -D = instalação do prisma
+
+npx prisma init --datasource-provider SQLite = cria arquivo .env e prisma
+
+npx prisma migrate dev = cria um tipo de commit
+
+npx prisma studio = roda o banco de dados
+
+npm install @prisma/client = para usar o prisma no servidos
