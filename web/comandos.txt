@@ -9,3 +9,5 @@ npm install -D tailwindcss postcss autoprefixer = instalação do tailwindcss
 npx tailwindcss init -p = instalação das dependencias
 
 npm install phosphor-react = biblioteca de ícones
+
+npm install @radix-ui/react-dialog = biblioteca de componentes com funcões da acessibilidade prontas

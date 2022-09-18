@@ -26,12 +26,12 @@ export function Home() {
         keyExtractor={item => item.id}
         renderItem={({ item }) => (
           <GameCard
-          data={item}
+            data={item}
           />
-          )}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={styles.contentList}
+        )}
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.contentList}
       />
     </View>
   );
