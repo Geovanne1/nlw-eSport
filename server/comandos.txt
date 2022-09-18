@@ -11,7 +11,7 @@ npm rum build = transforma o arquivo ts em js
 npm install @types/express -D = denpendencia do express para rodar typescript
 
 npm install ts-node-dev -D
-  criar no package.json em script( "dev": "tsnd src/server.ts(nome da pasta ts)" )
+  criar no package.json em script( "dev": tsnd --exit-child src/server.ts(nome da pasta ts)" )
 
 npm i prisma -D = instalação do prisma
 
@@ -22,3 +22,7 @@ npx prisma migrate dev = cria um tipo de commit
 npx prisma studio = roda o banco de dados
 
 npm install @prisma/client = para usar o prisma no servidos
+
+npm install cors = liberar acesso ao frontend
+
+npm install @types/cors -D = denpendencia do cors para typescript
